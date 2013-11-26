@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 25 Nov 2013 22:56:02 CET
+PCBNEW-LibModule-V1  Tue 26 Nov 2013 10:45:55 PM CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,6 +7,7 @@ JACK_3.5mm
 LED-0805
 PCBedge_SMA
 PUSH_BUTTON-TECon
+QFN-16
 SMD0603
 SMD0805
 SOD-123
@@ -14,6 +15,7 @@ SOD123F
 SSOP-16
 Screw_Terminal_Block_2P
 Shielded_inductor
+TSSOP-16
 breakaway
 mini-USB
 pin_array_2x1
@@ -249,6 +251,137 @@ Ne 0 ""
 Po -2.2479 0
 $EndPAD
 $EndMODULE PUSH_BUTTON-TECon
+$MODULE QFN-16
+Po 0 0 0 15 52951349 00000000 ~~
+Li QFN-16
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.6 0.8128 0.8128 0 0.1524 N V 21 N "QFN-16"
+T1 0 -6 0.8128 0.8128 0 0.1524 N V 21 N "VAL**"
+DC -1.3 -1.3 -1.3 -1.6 0.1524 21
+DS -1 -0.6 -1 1 0.05 21
+DS -0.6 -1 1 -1 0.05 21
+DS -1 -0.6 -0.6 -1 0.05 21
+DS 1 -1 1 1 0.05 21
+DS 1 1 -1 1 0.05 21
+DS -2 -2 2 -2 0.1524 21
+DS 2 -2 2 2 0.1524 21
+DS 2 2 -2 2 0.1524 21
+DS -2 2 -2 -2 0.1524 21
+$PAD
+Sh "1" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 -0.975
+$EndPAD
+$PAD
+Sh "2" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 -0.325
+$EndPAD
+$PAD
+Sh "3" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 0.325
+$EndPAD
+$PAD
+Sh "4" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.4 0.975
+$EndPAD
+$PAD
+Sh "5" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 2.4
+$EndPAD
+$PAD
+Sh "6" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 2.4
+$EndPAD
+$PAD
+Sh "7" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 2.4
+$EndPAD
+$PAD
+Sh "8" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 2.4
+$EndPAD
+$PAD
+Sh "9" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 0.975
+$EndPAD
+$PAD
+Sh "10" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 0.325
+$EndPAD
+$PAD
+Sh "11" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 -0.325
+$EndPAD
+$PAD
+Sh "12" R 2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.4 -0.975
+$EndPAD
+$PAD
+Sh "14" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 -2.4
+$EndPAD
+$PAD
+Sh "15" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 -2.4
+$EndPAD
+$PAD
+Sh "16" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 -2.4
+$EndPAD
+$PAD
+Sh "13" R 2 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 -2.4
+$EndPAD
+$EndMODULE QFN-16
 $MODULE SMD0603
 Po 0 0 0 15 528A8FA9 00000000 ~~
 Li SMD0603
@@ -582,6 +715,139 @@ Ne 0 ""
 Po 0 2.55
 $EndPAD
 $EndMODULE Shielded_inductor
+$MODULE TSSOP-16
+Po 0 0 0 15 5295168A 00000000 ~~
+Li TSSOP-16
+Sc 0
+AR 
+Op 0 0 0
+T0 -3.25 -1.625 1 1 0 0.15 N V 21 N "TSSOP-16"
+T1 -2.6 5.85 1 1 0 0.15 N V 21 N "VAL**"
+T2 0 0 0.5 0.5 0 0.05 N V 21 N "GND"
+DS -1.3 -1.3 1.3 -1.3 0.05 21
+DS 1.3 -1.3 1.3 1.3 0.05 21
+DS 1.3 1.3 -1.3 1.3 0.05 21
+DS -1.3 1.3 -1.3 -1.3 0.05 21
+DC -1.4 -1.7 -1.4 -2 0.1524 21
+DA 0 -2.5 0.5 -2.5 900 0.1524 21
+DA 0 -2.5 0 -2 900 0.1524 21
+DS -2.2 -2.5 2.2 -2.5 0.1524 21
+DS 2.2 -2.5 2.2 2.5 0.1524 21
+DS 2.2 2.5 -2.2 2.5 0.1524 21
+DS -2.2 2.5 -2.2 -2.5 0.1524 21
+$PAD
+Sh "1" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -2.275
+$EndPAD
+$PAD
+Sh "2" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -1.625
+$EndPAD
+$PAD
+Sh "3" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -0.975
+$EndPAD
+$PAD
+Sh "4" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -0.325
+$EndPAD
+$PAD
+Sh "5" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 0.325
+$EndPAD
+$PAD
+Sh "6" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 0.975
+$EndPAD
+$PAD
+Sh "7" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 1.625
+$EndPAD
+$PAD
+Sh "8" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 2.275
+$EndPAD
+$PAD
+Sh "9" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 2.275
+$EndPAD
+$PAD
+Sh "10" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 1.625
+$EndPAD
+$PAD
+Sh "11" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 0.975
+$EndPAD
+$PAD
+Sh "12" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 0.325
+$EndPAD
+$PAD
+Sh "13" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -0.325
+$EndPAD
+$PAD
+Sh "14" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -0.975
+$EndPAD
+$PAD
+Sh "15" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -1.625
+$EndPAD
+$PAD
+Sh "16" R 1.5 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -2.275
+$EndPAD
+$EndMODULE TSSOP-16
 $MODULE breakaway
 Po 0 0 0 15 50FBF3B1 00000000 ~~
 Li breakaway
