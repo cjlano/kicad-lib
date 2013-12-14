@@ -1,7 +1,8 @@
-PCBNEW-LibModule-V1  Wed 27 Nov 2013 22:57:20 CET
+PCBNEW-LibModule-V1  Sat 14 Dec 2013 04:41:47 PM CET
 # encoding utf-8
 Units mm
 $INDEX
+BMIS-203_Shield
 C_radial_10mm
 JACK_3.5mm
 LED-0805
@@ -32,6 +33,155 @@ pin_array_6x1
 pin_array_8x1
 slot-10mm
 $EndINDEX
+$MODULE BMIS-203_Shield
+Po 0 0 0 15 52AC6455 00000000 ~~
+Li BMIS-203_Shield
+Sc 0
+AR 
+Op 0 0 0
+T0 0 15.4 1 1 0 0.15 N I 21 N "BMIS-203_Shield"
+T1 0 17.1 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 13.1
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 13.1
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 13.1
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.9 13.1
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.1 11.9
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 11.9
+$EndPAD
+$PAD
+Sh "" R 3.2 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.8 13.1
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.1 6
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.1 0
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.1 -6
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.1 -11.8
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13.1 6
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 0
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -6
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13 -11.8
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.9 -13
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 -13
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -13
+$EndPAD
+$PAD
+Sh "" R 3.8 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 -13
+$EndPAD
+$PAD
+Sh "" R 3.4 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.8 -13
+$EndPAD
+$EndMODULE BMIS-203_Shield
 $MODULE C_radial_10mm
 Po 0 0 0 15 528FD80E 00000000 ~~
 Li C_radial_10mm
@@ -1518,13 +1668,17 @@ Po 2.95 -2.925
 $EndPAD
 $EndMODULE TSSOP-20
 $MODULE breakaway
-Po 0 0 0 15 50FBF3B1 00000000 ~~
+Po 0 0 0 15 52AC7C34 00000000 ~~
 Li breakaway
 Sc 0
 AR 
 Op 0 0 0
 T0 0 2.5 0.8128 0.8128 0 0.1524 N I 21 N "breakaway"
 T1 0 -2.5 0.8128 0.8128 0 0.1524 N I 21 N "VAL**"
+DA 3.5 0 3.5 1 900 0.15 21
+DA 3.5 0 2.5 0 900 0.15 21
+DA -3.5 0 -2.5 0 900 0.15 21
+DA -3.5 0 -3.5 -1 900 0.15 21
 DS -3 1 3 1 0.15 21
 DS -3 -1 3 -1 0.15 21
 $PAD
@@ -1532,70 +1686,70 @@ Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po -2 1
+Po -2 1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 2 1
+Po 2 1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po -1 1
+Po -1 1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 1 1
+Po 1 1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 0 1
+Po 0 1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 0 -1
+Po 0 -1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 1 -1
+Po 1 -1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po -1 -1
+Po -1 -1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 2 -1
+Po 2 -1.25
 $EndPAD
 $PAD
 Sh "" C 0.5 0.5 0 0 0
 Dr 0.5 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po -2 -1
+Po -2 -1.25
 $EndPAD
 $EndMODULE breakaway
 $MODULE mini-USB
@@ -2021,13 +2175,15 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_8x1
 $MODULE slot-10mm
-Po 0 0 0 15 50FBF355 00000000 ~~
+Po 0 0 0 15 52AC7763 00000000 ~~
 Li slot-10mm
 Sc 0
 AR 
 Op 0 0 0
 T0 0 2.1 0.8128 0.8128 0 0.1524 N I 21 N "slot-10mm"
 T1 0.1 -2.3 0.8128 0.8128 0 0.1524 N I 21 N "VAL**"
+DS -5 1 5 1 0.15 21
+DS -5 -1 5 -1 0.15 21
 $PAD
 Sh "" O 10 2 0 0 0
 Dr 10 0 0 O 10 2
