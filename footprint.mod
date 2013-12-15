@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 14 Dec 2013 06:31:12 PM CET
+PCBNEW-LibModule-V1  Sun 15 Dec 2013 22:38:56 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -34,6 +34,7 @@ pin_array_4x1
 pin_array_6x1
 pin_array_8x1
 slot-10mm
+slot-5mm
 $EndINDEX
 $MODULE AB38T_Crystal
 Po 0 0 0 15 5297AE46 00000000 ~~
@@ -2249,4 +2250,22 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE slot-10mm
+$MODULE slot-5mm
+Po 0 0 0 15 52AE2166 00000000 ~~
+Li slot-5mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.1 0.8128 0.8128 0 0.1524 N I 21 N "slot-5mm"
+T1 0.1 -2.3 0.8128 0.8128 0 0.1524 N I 21 N "VAL**"
+DS -2.5 1 2.5 1 0.1524 21
+DS -2.5 -1 2.5 -1 0.1524 21
+$PAD
+Sh "" O 5 2 0 0 0
+Dr 5 0 0 O 5 2
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE slot-5mm
 $EndLIBRARY
